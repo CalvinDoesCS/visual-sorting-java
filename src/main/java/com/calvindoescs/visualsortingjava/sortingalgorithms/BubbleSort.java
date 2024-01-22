@@ -2,18 +2,18 @@ package com.calvindoescs.visualsortingjava.sortingalgorithms;
 
 import com.calvindoescs.visualsortingjava.RectNode;
 import javafx.animation.Transition;
-import javafx.scene.paint.Color;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class BubbleSort extends Sort{
+public class BubbleSort extends Sort {
     private boolean swapped;
     private ArrayList<Transition> transitions;
 
     public BubbleSort() {
         this.transitions = new ArrayList<>();
     }
+
     private ArrayList<Transition> compareRectNode(RectNode[] arr, int a, int b) {
         ArrayList<Transition> transitions = new ArrayList<>();
 
@@ -28,6 +28,7 @@ public class BubbleSort extends Sort{
 
         return transitions;
     }
+
     private void bubbleSort(RectNode[] arr) {
         for (int i = 0; i < arr.length; i++) {
             swapped = false;
@@ -40,8 +41,10 @@ public class BubbleSort extends Sort{
             }
         }
     }
+
     @Override
     public ArrayList<Transition> startSort(RectNode[] arr) {
+        this.transitions.clear();
         bubbleSort(arr);
         this.transitions.add(colorRectNode(Arrays.asList(arr), SORTED_COLOR));
         return this.transitions;

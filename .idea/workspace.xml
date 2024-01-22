@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26739f53-3c46-4902-b52f-6f4c5294f37d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/RectNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/util/RandomRectNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava/visualSortView.fxml" afterDir="false" />
+    <list default="true" id="26739f53-3c46-4902-b52f-6f4c5294f37d" name="Changes" comment="Working Bubble Sort Algorithm Visuals">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/SortAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSortController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/RectNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/RectNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSortController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSortController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/util/RandomRectNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/util/RandomRectNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava/visualSortView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava/visualSortView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -41,9 +41,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2bIGKcG285njrjx5EwWIO8xNzBz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,12 +58,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.calvindoescs.visualsortingjava.sortingalgorithms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.calvindoescs.visualsortingjava" />
@@ -78,9 +88,20 @@
       <option name="presentableId" value="Default" />
       <updated>1705895116147</updated>
     </task>
+    <task id="LOCAL-00001" summary="Working Bubble Sort Algorithm Visuals">
+      <option name="closed" value="true" />
+      <created>1705903581224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705903581224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Working Bubble Sort Algorithm Visuals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Bubble Sort Algorithm Visuals" />
   </component>
 </project>

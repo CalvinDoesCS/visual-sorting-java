@@ -12,9 +12,9 @@ public class RandomRectNode {
         RectNode[] arr = new RectNode[n];
 
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = new RectNode((int) (Math.random() * VisualSortController.mainPaneHeight));
-            arr[i].setX(i * (VisualSortController.mainPaneWidth/ arr.length));
-            arr[i].setY(VisualSortController.mainPaneHeight - arr[i].getValue());
+            arr[i] = new RectNode((int) (Math.random() * VisualSortController.getMainPaneHeight()));
+            arr[i].setX(i * (VisualSortController.getMainPaneWidth() / arr.length));
+            arr[i].setY(VisualSortController.getMainPaneHeight() - arr[i].getValue());
             arr[i].setFill(Color.LIGHTBLUE);
             setRectNodeDim(arr[i], arr.length);
         }
@@ -23,14 +23,14 @@ public class RandomRectNode {
     }
     public static void recalculateRectNodeSize(RectNode[] arr){
         for (int i = 0; i < arr.length; i++) {
-            arr[i].setX(i * (VisualSortController.mainPaneWidth/ arr.length));
-            arr[i].setY(VisualSortController.mainPaneHeight - arr[i].getValue());
+            arr[i].setX(i * (VisualSortController.getMainPaneWidth() / arr.length));
+            arr[i].setY(VisualSortController.getMainPaneHeight() - arr[i].getValue());
             arr[i].setFill(Color.LIGHTBLUE);
             setRectNodeDim(arr[i], arr.length);
         }
     }
     private static void setRectNodeDim(RectNode rectNode, int n) {
-        rectNode.setWidth(VisualSortController.mainPaneWidth / n );
+        rectNode.setWidth(VisualSortController.getMainPaneWidth() / n );
         rectNode.setHeight(rectNode.getValue());
     }
 }

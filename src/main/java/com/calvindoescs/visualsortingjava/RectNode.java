@@ -7,7 +7,7 @@ import javafx.util.Duration;
 public class RectNode extends Rectangle {
     private int value;
 
-    public RectNode(int n){
+    public RectNode(int n) {
         this.value = n;
     }
 
@@ -20,10 +20,10 @@ public class RectNode extends Rectangle {
     }
 
     //This method provides the transitions of the node to a new x value
-    public TranslateTransition moveX(double x){
+    public TranslateTransition moveX(double x) {
         TranslateTransition t = new TranslateTransition();
         t.setNode(this);
-        t.setDuration(Duration.millis(100));
+        t.setDuration(Duration.millis(VisualSortController.getDurationInMs()));
         t.setByX(x);
         return t;
     }

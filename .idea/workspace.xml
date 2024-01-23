@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26739f53-3c46-4902-b52f-6f4c5294f37d" name="Changes" comment="Working Bubble Sort Algorithm Visuals">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/SortAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="26739f53-3c46-4902-b52f-6f4c5294f37d" name="Changes" comment="Refactor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/RectNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/RectNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSortController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/VisualSortController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/util/RandomRectNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/util/RandomRectNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/SortAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calvindoescs/visualsortingjava/sortingalgorithms/SortAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava/visualSortView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/calvindoescs/visualsortingjava/visualSortView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +31,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "CalvinDoesCS"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c4ce1f05-7477-4c25-a6fa-7ba052725d04" />
+        <option name="url" value="https://github.com/CalvinDoesCS/visual-sorting-java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -96,12 +108,75 @@
       <option name="project" value="LOCAL" />
       <updated>1705903581224</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created InsertionSort">
+      <option name="closed" value="true" />
+      <created>1705963861395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705963861395</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix Bug with transitions for array">
+      <option name="closed" value="true" />
+      <created>1705963886621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705963886621</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created Logo for Application">
+      <option name="closed" value="true" />
+      <created>1705963895589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705963895589</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change transitions to sequential transitions">
+      <option name="closed" value="true" />
+      <created>1705963929984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705963929984</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Enum for Sort Choices">
+      <option name="closed" value="true" />
+      <created>1705963943462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705963943462</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implements intended button behaviors">
+      <option name="closed" value="true" />
+      <created>1705963960464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705963960464</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactor">
+      <option name="closed" value="true" />
+      <created>1705963968484</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705963968484</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Working Bubble Sort Algorithm Visuals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working Bubble Sort Algorithm Visuals" />
+    <MESSAGE value="Created InsertionSort" />
+    <MESSAGE value="Fix Bug with transitions for array" />
+    <MESSAGE value="Created Logo for Application" />
+    <MESSAGE value="Change transitions to sequential transitions" />
+    <MESSAGE value="Enum for Sort Choices" />
+    <MESSAGE value="Implements intended button behaviors" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
   </component>
 </project>

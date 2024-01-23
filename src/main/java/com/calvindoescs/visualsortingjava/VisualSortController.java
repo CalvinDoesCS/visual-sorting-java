@@ -1,9 +1,6 @@
 package com.calvindoescs.visualsortingjava;
 
-import com.calvindoescs.visualsortingjava.sortingalgorithms.BubbleSort;
-import com.calvindoescs.visualsortingjava.sortingalgorithms.InsertionSort;
-import com.calvindoescs.visualsortingjava.sortingalgorithms.Sort;
-import com.calvindoescs.visualsortingjava.sortingalgorithms.SortAlgorithms;
+import com.calvindoescs.visualsortingjava.sortingalgorithms.*;
 import com.calvindoescs.visualsortingjava.util.RandomRectNode;
 import javafx.animation.SequentialTransition;
 import javafx.event.ActionEvent;
@@ -16,7 +13,6 @@ import javafx.scene.layout.Pane;
 
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -41,7 +37,7 @@ public class VisualSortController implements Initializable {
     private static double mainPaneHeight;
     private static int rectNodesSize = 50;
 
-    private static int durationInMs = 100;
+    private static int durationInMs = 50;
     private RectNode[] rectNodes;
     private List<Sort> abstractSortList;
     private boolean isAnimationRunning = false;
@@ -70,6 +66,10 @@ public class VisualSortController implements Initializable {
         abstractSortList = new ArrayList<>();
         abstractSortList.add(new BubbleSort());
         abstractSortList.add(new InsertionSort());
+        abstractSortList.add(new QuickSort());
+        abstractSortList.add(new MergeSort());
+        abstractSortList.add(new SelectionSort());
+        abstractSortList.add(new HeapSort());
     }
 
     public void getSortChoice(ActionEvent e) {
@@ -183,7 +183,8 @@ public class VisualSortController implements Initializable {
     public void onClickedNewArrayBtn() {
         generateAndAddRectNodesOnScene();
     }
-    public void resetVariables(){
+
+    public void resetVariables() {
         isAnimationRunning = false;
         isAnimationFinished = true;
         sortChoice.setDisable(false);

@@ -8,12 +8,13 @@ import javafx.animation.Transition;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class InsertionSort extends Sort{
+public class InsertionSort extends Sort {
     private ArrayList<Transition> transitions;
 
     public InsertionSort() {
         this.transitions = new ArrayList<>();
     }
+
     @Override
     public ArrayList<Transition> startSort(RectNode[] arr) {
         this.transitions.clear();
@@ -27,7 +28,7 @@ public class InsertionSort extends Sort{
             transitions.add(colorRectNode(arr, SELECT_COLOR, i));
 
             double dx = (VisualSortController.getMainPaneWidth() / VisualSortController.getRectNodesSize());
-            while(j >= 0 && arr[j].getValue() > key.getValue()) {
+            while (j >= 0 && arr[j].getValue() > key.getValue()) {
                 pt.getChildren().add(arr[j].moveX(dx));
                 arr[j + 1] = arr[j];
                 j--;

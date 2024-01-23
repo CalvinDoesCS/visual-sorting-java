@@ -14,7 +14,7 @@ import java.util.List;
 
 public abstract class Sort {
     final Color START_COLOR = Color.LIGHTBLUE;
-    final Color SELECT_COLOR = Color.CYAN;
+    final Color SELECT_COLOR = Color.ORANGE;
     final Color SORTED_COLOR = Color.ROYALBLUE;
 
     ParallelTransition colorRectNode(RectNode[] arr, Color color, int... a) {
@@ -31,7 +31,7 @@ public abstract class Sort {
     }
 
     SequentialTransition colorRectNode(List<RectNode> list, Color color) {
-        SequentialTransition sequentialTransition= new SequentialTransition();
+        SequentialTransition sequentialTransition = new SequentialTransition();
 
         for (RectNode c : list) {
             FillTransition fillTransition = new FillTransition();
@@ -58,4 +58,5 @@ public abstract class Sort {
     }
 
     public abstract ArrayList<Transition> startSort(RectNode[] arr);
+
 }

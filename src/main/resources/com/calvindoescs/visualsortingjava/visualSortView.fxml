@@ -28,7 +28,7 @@
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Speed of Sort" />
-                  <Slider fx:id="speedSlider" blockIncrement="5.0" max="200.0" min="1.0" value="100.0" />
+                  <Slider fx:id="speedSlider" blockIncrement="5.0" max="200.0" min="1.0" rotate="180.0" value="50.0" />
                </children>
             </VBox>
          </children>

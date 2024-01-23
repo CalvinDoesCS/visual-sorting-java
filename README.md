@@ -7,7 +7,6 @@ This project visualizes various sorting algorithms to help understand their beha
 - [Features](#features)
 - [Demo](#demo)
 - [Supported Algorithms](#supported-algorithms)
-- [How to Use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -39,17 +38,5 @@ It provides as an educational tool and to visualize the time complexity of each 
 - Quick Sort
 - Heap Sort
 
-## How to Use
 
-```bash
-# Clone the repository
-git clone https://github.com/CalvinDoesCS/visual-sorting-java.git
 
-# Navigate to the project directory
-cd visual-sorting-java
-
-# Install dependencies (if any)
-npm install
-
-# Run the application
-npm start

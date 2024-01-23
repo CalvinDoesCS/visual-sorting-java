@@ -7,8 +7,6 @@ This project visualizes various sorting algorithms to help understand their beha
 - [Features](#features)
 - [Demo](#demo)
 - [Supported Algorithms](#supported-algorithms)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
